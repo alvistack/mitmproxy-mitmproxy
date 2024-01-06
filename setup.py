@@ -68,31 +68,31 @@ setup(
     # https://packaging.python.org/en/latest/requirements/#install-requires
     # It is not considered best practice to use install_requires to pin dependencies to specific versions.
     install_requires=[
-        "asgiref>=3.2.10,<3.4",
-        "blinker>=1.4, <1.5",
-        "Brotli>=1.0,<1.1",
+        "asgiref>=3.2.10",
+        "blinker>=1.4",
+        "Brotli>=1.0",
         "certifi>=2019.9.11",  # no semver here - this should always be on the last release!
-        "click>=7.0,<8",
-        "cryptography>=3.2,<3.3",
-        "flask>=1.1.1,<1.2",
-        "h2>=4.0,<5; python_version>='3.6.0'",  # python_version only needed to make "py36+ required" message work
-        "hyperframe>=6.0,<7; python_version>='3.6.0'",  # python_version only needed to make "py36+ required" message work
-        "kaitaistruct>=0.7,<0.10",
-        "ldap3>=2.8,<2.9",
-        "msgpack>=1.0.0, <1.1.0",
-        "passlib>=1.6.5, <1.8",
-        "protobuf>=3.6.0, <3.14",
-        "pyasn1>=0.3.1,<0.5",
-        "pyOpenSSL>=19.1.0,<19.2",
-        "pyparsing>=2.4.2,<2.5",
-        "pyperclip>=1.6.0,<1.9",
-        "ruamel.yaml>=0.16,<0.17",
-        "sortedcontainers>=2.1,<2.3",
-        "tornado>=4.3,<7",
-        "urwid>=2.1.1,<2.2",
-        "wsproto>=0.14,<0.16",
-        "publicsuffix2>=2.20190812,<3",
-        "zstandard>=0.11,<0.15",
+        "click>=7.0",
+        "cryptography>=3.2",
+        "flask>=1.1.1",
+        "h2>=4.0; python_version>='3.6.0'",  # python_version only needed to make "py36+ required" message work
+        "hyperframe>=6.0; python_version>='3.6.0'",  # python_version only needed to make "py36+ required" message work
+        "kaitaistruct>=0.7",
+        "ldap3>=2.8",
+        "msgpack>=1.0.0",
+        "passlib>=1.6.5",
+        "protobuf>=3.6.0",
+        "pyasn1>=0.3.1",
+        "pyOpenSSL>=19.1.0",
+        "pyparsing>=2.4.2",
+        "pyperclip>=1.6.0",
+        "ruamel.yaml>=0.16",
+        "sortedcontainers>=2.1",
+        "tornado>=4.3",
+        "urwid>=2.1.1",
+        "wsproto>=0.14",
+        "publicsuffix2>=2.20190812",
+        "zstandard>=0.11",
     ],
     extras_require={
         ':sys_platform == "win32"': [
