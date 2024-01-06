@@ -1,0 +1,5 @@
+python-mitmproxy (100:8.0.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/mitmproxy/mitmproxy/releases/tag/v8.0.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Sat, 06 Jan 2024 15:48:35 +0800
